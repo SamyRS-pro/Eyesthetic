@@ -1,23 +1,23 @@
-import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Reports from './pages/Reports';
-import Products from './pages/Products';
+import Overview from './pages/Overview';
+import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
+import Team from './pages/Team';
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/reports' component={Reports} />
-          <Route path='/products' component={Products} />
-        </Switch>
-      </Router>
-    </>
+    <Router>
+      <Sidebar />
+      <Switch>
+        <Route path='/overview' exact component={Overview} />
+        <Route path='/reports' exact component={Reports} />
+        <Route path='/reports/reports1' exact component={ReportsOne} />
+        <Route path='/reports/reports2' exact component={ReportsTwo} />
+        <Route path='/reports/reports3' exact component={ReportsThree} />
+        <Route path='/team' exact component={Team} />
+      </Switch>
+    </Router>
   );
 }
 
