@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/eyesthetic/static/css/main.f348fc94.css",
-    "main.js": "/eyesthetic/static/js/main.fc06e02c.js",
+    "main.css": "/eyesthetic/static/css/main.5ae7d82e.css",
+    "main.js": "/eyesthetic/static/js/main.1956c835.js",
+    "static/js/787.c7725ffb.chunk.js": "/eyesthetic/static/js/787.c7725ffb.chunk.js",
     "index.html": "/eyesthetic/index.html",
-    "main.f348fc94.css.map": "/eyesthetic/static/css/main.f348fc94.css.map",
-    "main.fc06e02c.js.map": "/eyesthetic/static/js/main.fc06e02c.js.map"
+    "main.5ae7d82e.css.map": "/eyesthetic/static/css/main.5ae7d82e.css.map",
+    "main.1956c835.js.map": "/eyesthetic/static/js/main.1956c835.js.map",
+    "787.c7725ffb.chunk.js.map": "/eyesthetic/static/js/787.c7725ffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f348fc94.css",
-    "static/js/main.fc06e02c.js"
+    "static/css/main.5ae7d82e.css",
+    "static/js/main.1956c835.js"
   ]
 }
