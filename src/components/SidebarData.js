@@ -11,6 +11,7 @@ export const SidebarData = [
   },
   {
     title: "Blepharoplastie",
+    path: "#",
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -31,6 +32,7 @@ export const SidebarData = [
   },
   {
     title: "Lifting",
+    path: "#",
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -49,6 +51,7 @@ export const SidebarData = [
   },
   {
     title: "Chirurgie",
+    path: "#",
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -65,6 +68,7 @@ export const SidebarData = [
   },
   {
     title: "Comblement",
+    path: "#",
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 

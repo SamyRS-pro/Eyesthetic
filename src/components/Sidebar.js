@@ -53,7 +53,10 @@ const Sidebar = () => {
 
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => {
+    setSidebar(!sidebar);
+    localStorage.setItem("sidebar", sidebar);
+  };
 
   const [windowSize, setWindowSize] = useState(getWindowSize());
 
@@ -69,7 +72,6 @@ const Sidebar = () => {
     };
   }, []);
 
-  console.log(sidebar);
   return (
     <div style={{ width: windowSize.innerWidth }}>
       <IconContext.Provider value={{ color: "#fff" }}>
