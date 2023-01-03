@@ -33,8 +33,12 @@ const SidebarNav = styled.nav`
   position: fixed;
   top: 0;
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-  transition: 350ms;
+  transition: 400ms;
   z-index: 10;
+  overflow-y: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const SidebarWrap = styled.div`
@@ -85,7 +89,10 @@ const Sidebar = () => {
             Eyesthetic
           </div>
         </Nav>
-        <SidebarNav sidebar={sidebar}>
+        <SidebarNav
+          sidebar={sidebar}
+          style={{ height: windowSize.innerHeight }}
+        >
           <SidebarWrap>
             <NavIcon to="#">
               <AiIcons.AiOutlineClose onClick={showSidebar} />
