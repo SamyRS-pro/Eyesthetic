@@ -43,6 +43,10 @@ const SubMenu = ({ item }) => {
 
   const showSubnav = () => setSubnav(!subnav);
 
+  const test = () => {
+    console.log(window.location.href);
+  };
+
   return (
     <>
       <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
@@ -60,8 +64,10 @@ const SubMenu = ({ item }) => {
       </SidebarLink>
       {subnav &&
         item.subNav.map((item, index) => {
+          console.log(item);
+
           return (
-            <DropdownLink to={item.path} key={index}>
+            <DropdownLink to={item.path} key={index} onClick={test}>
               {item.icon}
               <SidebarLabel>{item.title}</SidebarLabel>
             </DropdownLink>
