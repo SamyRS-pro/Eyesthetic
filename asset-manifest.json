@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/eyesthetic/static/css/main.5ae7d82e.css",
-    "main.js": "/eyesthetic/static/js/main.6336ced6.js",
+    "main.css": "/eyesthetic/static/css/main.228dd8cb.css",
+    "main.js": "/eyesthetic/static/js/main.1d73efa7.js",
     "static/js/787.c7725ffb.chunk.js": "/eyesthetic/static/js/787.c7725ffb.chunk.js",
+    "static/media/rohan.jpeg": "/eyesthetic/static/media/rohan.a094e5599bf6f84822ad.jpeg",
+    "static/media/misto.png": "/eyesthetic/static/media/misto.d12c56623a8b4b8e233f.png",
     "index.html": "/eyesthetic/index.html",
-    "main.5ae7d82e.css.map": "/eyesthetic/static/css/main.5ae7d82e.css.map",
-    "main.6336ced6.js.map": "/eyesthetic/static/js/main.6336ced6.js.map",
+    "main.228dd8cb.css.map": "/eyesthetic/static/css/main.228dd8cb.css.map",
+    "main.1d73efa7.js.map": "/eyesthetic/static/js/main.1d73efa7.js.map",
     "787.c7725ffb.chunk.js.map": "/eyesthetic/static/js/787.c7725ffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ae7d82e.css",
-    "static/js/main.6336ced6.js"
+    "static/css/main.228dd8cb.css",
+    "static/js/main.1d73efa7.js"
   ]
 }
