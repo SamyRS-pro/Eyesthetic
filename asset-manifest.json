@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/eyesthetic/static/css/main.228dd8cb.css",
-    "main.js": "/eyesthetic/static/js/main.1d73efa7.js",
-    "static/js/787.c7725ffb.chunk.js": "/eyesthetic/static/js/787.c7725ffb.chunk.js",
-    "static/media/rohan.jpeg": "/eyesthetic/static/media/rohan.a094e5599bf6f84822ad.jpeg",
-    "static/media/misto.png": "/eyesthetic/static/media/misto.d12c56623a8b4b8e233f.png",
-    "index.html": "/eyesthetic/index.html",
-    "main.228dd8cb.css.map": "/eyesthetic/static/css/main.228dd8cb.css.map",
-    "main.1d73efa7.js.map": "/eyesthetic/static/js/main.1d73efa7.js.map",
-    "787.c7725ffb.chunk.js.map": "/eyesthetic/static/js/787.c7725ffb.chunk.js.map"
+    "main.css": "/eyesthetic/accueil/static/css/main.b62ab676.css",
+    "main.js": "/eyesthetic/accueil/static/js/main.60ceefef.js",
+    "static/js/787.c7725ffb.chunk.js": "/eyesthetic/accueil/static/js/787.c7725ffb.chunk.js",
+    "static/media/map.png": "/eyesthetic/accueil/static/media/map.4dbcbdaf8d11c26525bf.png",
+    "static/media/rohan.jpeg": "/eyesthetic/accueil/static/media/rohan.a094e5599bf6f84822ad.jpeg",
+    "static/media/misto.png": "/eyesthetic/accueil/static/media/misto.d12c56623a8b4b8e233f.png",
+    "index.html": "/eyesthetic/accueil/index.html",
+    "main.b62ab676.css.map": "/eyesthetic/accueil/static/css/main.b62ab676.css.map",
+    "main.60ceefef.js.map": "/eyesthetic/accueil/static/js/main.60ceefef.js.map",
+    "787.c7725ffb.chunk.js.map": "/eyesthetic/accueil/static/js/787.c7725ffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.228dd8cb.css",
-    "static/js/main.1d73efa7.js"
+    "static/css/main.b62ab676.css",
+    "static/js/main.60ceefef.js"
   ]
 }
