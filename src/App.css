@@ -7,18 +7,6 @@
   font-family: "Lato", sans-serif;
 }
 
-.home,
-.reports,
-.products,
-.team,
-.reports {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
 .colorBackground {
   background-color: #ccedf4;
 }
@@ -32,4 +20,15 @@
   margin-left: 50px;
   height: 150px;
   width: 150px;
+}
+
+.imgAccueil {
+  height: 320px;
+  width: 320px;
+}
+
+.map {
+  height: auto;
+  max-width: 800px;
+  border: solid;
 }

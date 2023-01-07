@@ -24,9 +24,9 @@ export const BlepharoplastieSup = () => {
           <div
             style={{
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              width: AllColorPage().width,
               position: "relative",
-              left: "-10%",
+              left: "-5%",
               borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}

@@ -20,36 +20,60 @@ function App() {
     <Router>
       <Sidebar />
       <Switch>
-        <Route path="/accueil" exact component={Accueil} />
+        <Route path="/eyesthetic/accueil" exact component={Accueil} />
         <Route
-          path="/blepharoplastie/superieure"
+          path="/eyesthetic/blepharoplastie/superieure"
           exact
           component={BlepharoplastieSup}
         />
         <Route
-          path="/blepharoplastie/superieureelargie"
+          path="/eyesthetic/blepharoplastie/superieureelargie"
           exact
           component={BlepharoplastieSupEla}
         />
         <Route
-          path="/blepharoplastie/superieureptosis"
+          path="/eyesthetic/blepharoplastie/superieureptosis"
           exact
           component={BlepharoplastieSupPto}
         />
-        <Route path="/lifting/temporal" exact component={LiftingTemp} />
         <Route
-          path="/lifting/frontalmalaire"
+          path="/eyesthetic/lifting/temporal"
+          exact
+          component={LiftingTemp}
+        />
+        <Route
+          path="/eyesthetic/lifting/frontalmalaire"
           exact
           component={LiftingFronMala}
         />
-        <Route path="/chirurgie/combine" exact component={ChirurgieCombine} />
-        <Route path="/chirurgie/poche" exact component={ChirurgiePoche} />
-        <Route path="/comblement/joueslevres" exact component={ComblementJL} />
-        <Route path="/comblement/visage" exact component={ComblementVisage} />
-        <Route path="/palpebral" exact component={Palpebral} />
-        <Route path="/rajeunissement" exact component={Rajeunissement} />
-        <Route path="/pommettes" exact component={Pommettes} />
-        <Route path="/acces" exact component={Acces} />
+        <Route
+          path="/eyesthetic/chirurgie/combine"
+          exact
+          component={ChirurgieCombine}
+        />
+        <Route
+          path="/eyesthetic/chirurgie/poche"
+          exact
+          component={ChirurgiePoche}
+        />
+        <Route
+          path="/eyesthetic/comblement/joueslevres"
+          exact
+          component={ComblementJL}
+        />
+        <Route
+          path="/eyesthetic/comblement/visage"
+          exact
+          component={ComblementVisage}
+        />
+        <Route path="/eyesthetic/palpebral" exact component={Palpebral} />
+        <Route
+          path="/eyesthetic/rajeunissement"
+          exact
+          component={Rajeunissement}
+        />
+        <Route path="/eyesthetic/pommettes" exact component={Pommettes} />
+        <Route path="/eyesthetic/acces" exact component={Acces} />
       </Switch>
     </Router>
   );

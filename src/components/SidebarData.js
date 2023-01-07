@@ -7,7 +7,7 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
     title: "Accueil",
-    path: "/accueil",
+    path: "/eyesthetic/accueil",
   },
   {
     title: "Blepharoplastie",
@@ -18,15 +18,15 @@ export const SidebarData = [
     subNav: [
       {
         title: "Superieure",
-        path: "/blepharoplastie/superieure",
+        path: "/eyesthetic/blepharoplastie/superieure",
       },
       {
         title: "Superieure Elargie",
-        path: "/blepharoplastie/superieureelargie",
+        path: "/eyesthetic/blepharoplastie/superieureelargie",
       },
       {
         title: "Superieure + Ptosis",
-        path: "/blepharoplastie/superieureptosis",
+        path: "/eyesthetic/blepharoplastie/superieureptosis",
       },
     ],
   },
@@ -39,12 +39,12 @@ export const SidebarData = [
     subNav: [
       {
         title: "Temporal",
-        path: "/lifting/temporal",
+        path: "/eyesthetic/lifting/temporal",
         cName: "sub-nav",
       },
       {
         title: "Frontal & Malaire",
-        path: "/lifting/frontalmalaire",
+        path: "/eyesthetic/lifting/frontalmalaire",
         cName: "sub-nav",
       },
     ],
@@ -58,11 +58,11 @@ export const SidebarData = [
     subNav: [
       {
         title: "Combinee des 4 Paupieres",
-        path: "/chirurgie/combine",
+        path: "/eyesthetic/chirurgie/combine",
       },
       {
         title: "Des Poches sans cicatrice",
-        path: "/chirurgie/poche",
+        path: "/eyesthetic/chirurgie/poche",
       },
     ],
   },
@@ -75,28 +75,28 @@ export const SidebarData = [
     subNav: [
       {
         title: "Joues & Levres",
-        path: "/comblement/joueslevres",
+        path: "/eyesthetic/comblement/joueslevres",
       },
       {
         title: "Des 3 niveau du Visage",
-        path: "/comblement/visage",
+        path: "/eyesthetic/comblement/visage",
       },
     ],
   },
   {
     title: "Modification du Pli Palpebral Asiatique",
-    path: "/palpebral",
+    path: "/eyesthetic/palpebral",
   },
   {
     title: "Rajeunissement medical de la Face",
-    path: "/rajeunissement",
+    path: "/eyesthetic/rajeunissement",
   },
   {
     title: "Augmentation du volume des Pommettes",
-    path: "/pommettes",
+    path: "/eyesthetic/pommettes",
   },
   {
     title: "Plan d'acces",
-    path: "/acces",
+    path: "/eyesthetic/acces",
   },
 ];
