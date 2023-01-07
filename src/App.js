@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Sidebar />
       <Switch>
-        <Route path="/eyesthetic/accueil" exact component={Accueil} />
+        <Route path="/eyesthetic" exact component={Accueil} />
         <Route
           path="/eyesthetic/blepharoplastie/superieure"
           exact

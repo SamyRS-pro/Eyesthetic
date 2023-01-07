@@ -8,7 +8,11 @@
 }
 
 .colorBackground {
-  background-color: #ccedf4;
+  background-color: #ccedfa;
+  height: 92%;
+  position: fixed;
+  width: 100%;
+  top: 8%;
 }
 
 .img {
@@ -31,4 +35,14 @@
   height: auto;
   max-width: 800px;
   border: solid;
+}
+
+.font {
+  font-size: 400%;
+}
+
+@media all and (max-width: 760px) {
+  .font {
+    font-size: 300%;
+  }
 }

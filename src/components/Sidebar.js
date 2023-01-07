@@ -8,11 +8,14 @@ import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
+  position: fixed;
   background: #15171c;
-  height: 80px;
+  height: 8%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
+  z-index: 5;
 `;
 
 const NavIcon = styled(Link)`
@@ -81,14 +84,13 @@ const Sidebar = () => {
           </NavIcon>
           <div
             style={{
-              position: "absolute",
               left: sidebar ? 270 : 70,
+              position: "absolute",
               transition: "350ms",
               color: "white",
-              fontSize: 50,
             }}
           >
-            Eyesthetic
+            <div className="font">Eyesthetic</div>
           </div>
         </Nav>
         <SidebarNav

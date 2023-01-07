@@ -7,7 +7,7 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
     title: "Accueil",
-    path: "/eyesthetic/accueil",
+    path: "/eyesthetic",
   },
   {
     title: "Blepharoplastie",

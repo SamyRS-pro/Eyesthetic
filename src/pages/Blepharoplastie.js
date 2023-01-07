@@ -6,8 +6,109 @@ import img2 from "../images/rohan.jpeg";
 
 export const BlepharoplastieSup = () => {
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div
+      className="colorBackground"
+      style={{
+        position: "absolute",
+        height: "auto",
+        width: "auto",
+        minWidth: "100%",
+      }}
+    >
       <div style={shifftPageStyle()}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <h1>Blepharoplastie</h1>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              width:
+                localStorage.getItem("sidebar") === "true" ? "110%" : "103%",
+              position: "relative",
+              marginLeft:
+                localStorage.getItem("sidebar") === "true" ? "-10%" : "-3%",
+              borderWidth: "10px",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          <div>
+            <span>Superieure</span>
+          </div>
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "50%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "50%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          {/**********************************************************************************************/}
+        </div>
         <div
           style={{
             display: "flex",
@@ -21,16 +122,168 @@ export const BlepharoplastieSup = () => {
           <div>
             <span>Superieure</span>
           </div>
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
           <div
             style={{
               borderBottom: "solid",
-              width: AllColorPage().width,
+              borderWidth: "4px",
+              width: "50%",
               position: "relative",
-              left: "-5%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "50%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          {/**********************************************************************************************/}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <h1>Blepharoplastie</h1>
+          </div>
+          <div>
+            <span>Superieure</span>
+          </div>
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "50%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          {/**********************************************************************************************/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center" }}>Avant</div>
+              <div>
+                <img src={img1} alt="img1" className="img" />
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+                Apres
+              </div>
+              <div>
+                <img src={img2} alt="img2" className="img2" />
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "50%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
+          {/**********************************************************************************************/}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <h1>Blepharoplastie</h1>
+          </div>
+          <div>
+            <span>Superieure</span>
+          </div>
           {/**********************************************************************************************/}
           <div
             style={{
@@ -106,7 +359,7 @@ export const BlepharoplastieSup = () => {
 
 export const BlepharoplastieSupEla = () => {
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
@@ -121,16 +374,7 @@ export const BlepharoplastieSupEla = () => {
           <div>
             <span>Superieure Elargie</span>
           </div>
-          <div
-            style={{
-              borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
-              position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
+
           {/**********************************************************************************************/}
           <div
             style={{
@@ -206,7 +450,7 @@ export const BlepharoplastieSupEla = () => {
 
 export const BlepharoplastieSupPto = () => {
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
