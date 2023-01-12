@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
-import AllColorPage from "../function/AllColorPage";
-import img1 from "../images/misto.png";
+import img1 from "../images/lotus.jpg";
 import img2 from "../images/rohan.jpeg";
 
 export const BlepharoplastieSup = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
     <div
       className="colorBackground"
@@ -24,49 +27,67 @@ export const BlepharoplastieSup = () => {
           }}
         >
           <div>
-            <h1>Blepharoplastie</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Blepharoplastie</h1>
+          </div>
+          <div style={{ marginTop: "0.5%" }}>
+            <span style={{ textDecorationLine: "underline" }}>Superieure</span>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width:
-                localStorage.getItem("sidebar") === "true" ? "110%" : "103%",
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              marginLeft:
-                localStorage.getItem("sidebar") === "true" ? "-10%" : "-3%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
-          <div>
-            <span>Superieure</span>
-          </div>
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -77,77 +98,49 @@ export const BlepharoplastieSup = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
-              borderBottom: "solid",
-              borderWidth: "4px",
-              width: "50%",
-              position: "relative",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
-          {/**********************************************************************************************/}
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <div>
-            <h1>Blepharoplastie</h1>
-          </div>
-          <div>
-            <span>Superieure</span>
-          </div>
-          {/**********************************************************************************************/}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
-                <img src={img1} alt="img1" className="img" />
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
-                Apres
-              </div>
-              <div>
-                <img src={img2} alt="img2" className="img2" />
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -158,29 +151,49 @@ export const BlepharoplastieSup = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -188,169 +201,6 @@ export const BlepharoplastieSup = () => {
               borderBottomColor: "#6E79A0",
             }}
           />
-          {/**********************************************************************************************/}
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <div>
-            <h1>Blepharoplastie</h1>
-          </div>
-          <div>
-            <span>Superieure</span>
-          </div>
-          {/**********************************************************************************************/}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
-                <img src={img1} alt="img1" className="img" />
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
-                Apres
-              </div>
-              <div>
-                <img src={img2} alt="img2" className="img2" />
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              borderBottom: "solid",
-              borderWidth: "4px",
-              width: "50%",
-              position: "relative",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
-          {/**********************************************************************************************/}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
-                <img src={img1} alt="img1" className="img" />
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
-                Apres
-              </div>
-              <div>
-                <img src={img2} alt="img2" className="img2" />
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              borderBottom: "solid",
-              borderWidth: "4px",
-              width: "50%",
-              position: "relative",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
-          {/**********************************************************************************************/}
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <div>
-            <h1>Blepharoplastie</h1>
-          </div>
-          <div>
-            <span>Superieure</span>
-          </div>
-          {/**********************************************************************************************/}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
-                <img src={img1} alt="img1" className="img" />
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
-                Apres
-              </div>
-              <div>
-                <img src={img2} alt="img2" className="img2" />
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              borderBottom: "solid",
-              borderWidth: "4px",
-              width: "50%",
-              position: "relative",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
-          {/**********************************************************************************************/}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
-                <img src={img1} alt="img1" className="img" />
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
-                Apres
-              </div>
-              <div>
-                <img src={img2} alt="img2" className="img2" />
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              borderBottom: "solid",
-              borderWidth: "4px",
-              width: "50%",
-              position: "relative",
-              borderBottomColor: "#6E79A0",
-            }}
-          />
-          {/**********************************************************************************************/}
         </div>
       </div>
     </div>
@@ -358,6 +208,10 @@ export const BlepharoplastieSup = () => {
 };
 
 export const BlepharoplastieSupEla = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
     <div className="colorBackground">
       <div style={shifftPageStyle()}>
@@ -369,38 +223,69 @@ export const BlepharoplastieSupEla = () => {
           }}
         >
           <div>
-            <h1>Blepharoplastie</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Blepharoplastie</h1>
           </div>
-          <div>
-            <span>Superieure Elargie</span>
+          <div style={{ marginTop: "0.5%" }}>
+            <span style={{ textDecorationLine: "underline" }}>
+              Superieure Elargie
+            </span>
           </div>
-
+          <div
+            style={{
+              marginTop: "0.5%",
+              borderBottom: "solid",
+              borderWidth: "4px",
+              width: "101%",
+              position: "relative",
+              borderBottomColor: "#6E79A0",
+            }}
+          />
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -411,29 +296,49 @@ export const BlepharoplastieSupEla = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -449,6 +354,10 @@ export const BlepharoplastieSupEla = () => {
 };
 
 export const BlepharoplastieSupPto = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
     <div className="colorBackground">
       <div style={shifftPageStyle()}>
@@ -460,47 +369,69 @@ export const BlepharoplastieSupPto = () => {
           }}
         >
           <div>
-            <h1>Blepharoplastie</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Blepharoplastie</h1>
           </div>
-          <div>
-            <span>Superieure + Ptosis</span>
+          <div style={{ marginTop: "0.5%" }}>
+            <span style={{ textDecorationLine: "underline" }}>
+              Superieure + Ptosis
+            </span>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -511,29 +442,49 @@ export const BlepharoplastieSupPto = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",

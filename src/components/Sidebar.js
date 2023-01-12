@@ -10,7 +10,6 @@ import { IconContext } from "react-icons/lib";
 const Nav = styled.div`
   position: fixed;
   background: #15171c;
-  height: 8%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -30,7 +29,6 @@ const NavIcon = styled(Link)`
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 250px;
-  height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -54,7 +52,7 @@ const Sidebar = () => {
     return { innerWidth, innerHeight };
   }
 
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
 
   const showSidebar = () => {
     setSidebar(!sidebar);
@@ -93,10 +91,7 @@ const Sidebar = () => {
             <div className="font">Eyesthetic</div>
           </div>
         </Nav>
-        <SidebarNav
-          sidebar={sidebar}
-          style={{ height: windowSize.innerHeight }}
-        >
+        <SidebarNav sidebar={sidebar} style={{ height: "100%" }}>
           <SidebarWrap>
             <NavIcon to="#">
               <AiIcons.AiOutlineClose onClick={showSidebar} />

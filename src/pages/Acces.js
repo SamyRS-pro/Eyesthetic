@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
-import AllColorPage from "../function/AllColorPage";
 import map from "../images/map.png";
 
 const Acces = () => {
@@ -10,8 +9,15 @@ const Acces = () => {
     );
   };
 
+  console.log(localStorage.getItem("sidebar"));
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
+
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
@@ -21,15 +27,15 @@ const Acces = () => {
           }}
         >
           <div>
-            <h1>Plan d'Acces</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Plan d'Acces</h1>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
@@ -51,16 +57,25 @@ const Acces = () => {
             }}
           >
             <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-              }}
+              //style={{
+              //display: "flex",
+              //flexDirection: "column",
+              //marginLeft: "50px",
+              //}}
+              className="shiftmobile"
             >
-              <div style={{ textAlign: "center" }}>MAP</div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                MAP
+              </div>
               <div style={{ textAlign: "center" }}>
                 <img src={map} alt="map" className="map" />
               </div>
-              <div onClick={Redirection} style={{ textAlign: "center" }}>
+              <div
+                onClick={Redirection}
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
                 Lien google map
               </div>
             </div>

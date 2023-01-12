@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
-import AllColorPage from "../function/AllColorPage";
-import img1 from "../images/misto.png";
+import img1 from "../images/lotus.jpg";
 import img2 from "../images/rohan.jpeg";
 
 export const ChirurgieCombine = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
@@ -16,47 +19,69 @@ export const ChirurgieCombine = () => {
           }}
         >
           <div>
-            <h1>Chirurgie</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Chirurgie</h1>
           </div>
-          <div>
-            <span>Combinee des 4 Paupieres</span>
+          <div style={{ marginTop: "0.5%" }}>
+            <span style={{ textDecorationLine: "underline" }}>
+              Combinee des 4 Paupieres
+            </span>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -67,29 +92,49 @@ export const ChirurgieCombine = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -105,8 +150,12 @@ export const ChirurgieCombine = () => {
 };
 
 export const ChirurgiePoche = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
@@ -116,47 +165,70 @@ export const ChirurgiePoche = () => {
           }}
         >
           <div>
-            <h1>Chirurgie</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>Chirurgie</h1>
           </div>
-          <div>
-            <span>Des Poches sans cicatrice</span>
+          <div style={{ marginTop: "0.5%" }}>
+            <span style={{ textDecorationLine: "underline" }}>
+              Des Poches sans cicatrice
+            </span>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
+
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",
@@ -167,29 +239,49 @@ export const ChirurgiePoche = () => {
           {/**********************************************************************************************/}
           <div
             style={{
+              marginTop: "0.5%",
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
             }}
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center" }}>Avant</div>
-              <div>
+              <div
+                style={{ textAlign: "center", textDecorationLine: "underline" }}
+              >
+                Avant
+              </div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img1} alt="img1" className="img" />
               </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ textAlign: "center", marginLeft: "50px" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginLeft: "50px",
+                  textDecorationLine: "underline",
+                }}
+              >
                 Apres
               </div>
-              <div>
+              <div
+                style={{
+                  marginTop: "1.5%",
+                }}
+              >
                 <img src={img2} alt="img2" className="img2" />
               </div>
             </div>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
               borderWidth: "4px",
               width: "50%",

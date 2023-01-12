@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
-import AllColorPage from "../function/AllColorPage";
-import img1 from "../images/misto.png";
+import img1 from "../images/lotus.jpg";
 import img2 from "../images/rohan.jpeg";
 
 const Rajeunissement = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    localStorage.setItem("sidebar", "false");
+  });
   return (
-    <div className="colorBackground" style={AllColorPage()}>
+    <div className="colorBackground">
       <div style={shifftPageStyle()}>
         <div
           style={{
@@ -16,15 +19,17 @@ const Rajeunissement = () => {
           }}
         >
           <div>
-            <h1>Rajeunissement medical de la face</h1>
+            <h1 style={{ textDecorationLine: "underline" }}>
+              Rajeunissement medical de la face
+            </h1>
           </div>
           <div
             style={{
+              marginTop: "0.5%",
               borderBottom: "solid",
-              width: AllColorPage().width + AllColorPage().width * 0.159,
+              borderWidth: "4px",
+              width: "101%",
               position: "relative",
-              left: "-10%",
-              borderWidth: "10px",
               borderBottomColor: "#6E79A0",
             }}
           />
