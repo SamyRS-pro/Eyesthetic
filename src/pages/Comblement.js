@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
 import img1 from "../images/lotus.jpg";
-import img2 from "../images/rohan.jpeg";
-
+import img2 from "../images/Nenuphar.jpg";
 export const ComblementJL = () => {
   useEffect(() => {
     // Update the document title using the browser API

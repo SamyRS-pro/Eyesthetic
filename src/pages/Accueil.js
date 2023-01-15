@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import shifftPageStyle from "../function/shifftPageStyle";
 import img1 from "../images/lotus.jpg";
+import img2 from "../images/Nenuphar.jpg";
 
 const Accueil = () => {
   useEffect(() => {
@@ -97,8 +98,8 @@ const Accueil = () => {
                   >
                     Oculplasticien
                   </div>
-                  <hr></hr>
-                  <div>
+
+                  <div style={{ marginTop: "2%" }}>
                     <span>
                       Chirugie esthétique du regard <br></br>
                       Chirurgie oculaire Chirurgie <br></br>
@@ -113,17 +114,9 @@ const Accueil = () => {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  marginLeft: "5%",
+                  marginLeft: "1%",
                 }}
               >
-                <div
-                  style={{
-                    textAlign: "center",
-                    textDecorationLine: "underline",
-                  }}
-                >
-                  Avant
-                </div>
                 <div
                   style={{
                     textAlign: "center",
@@ -180,7 +173,6 @@ const Accueil = () => {
                     display: "flex",
                     flexDirection: "column",
                     width: "100%",
-                    marginLeft: "5%",
                   }}
                 >
                   <div
@@ -192,7 +184,7 @@ const Accueil = () => {
                     CENTRE DE MEDECINE ESTHETIQUE MOZART
                   </div>
                   <div style={{ textAlign: "center", marginTop: "2%" }}>
-                    <img src={img1} alt="img1" className="imgAccueil" />
+                    <img src={img2} alt="img2" className="imgAccueil" />
                   </div>
                   <div
                     style={{
@@ -202,8 +194,8 @@ const Accueil = () => {
                   >
                     Institut de la Paupière et de l'Orbite
                   </div>
-                  <hr></hr>
-                  <div>
+
+                  <div style={{ marginTop: "2%" }}>
                     <span>
                       13-15 Chaussée de la Muette 75016 PARIS<br></br>
                       Accès: Metro station Muette- ligne 9 <br></br>
